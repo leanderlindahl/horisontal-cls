@@ -1,0 +1,58 @@
+.nav-bar {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: green;
+}
+.nav-ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 0;
+}
+.nav-ul li {
+  padding: 0 0.625rem;
+}
+.nav-menu {
+  justify-content: flex-start;
+  background-color: aliceblue;
+}
+.nav-pickers {
+  justify-content: flex-end;
+}
+.nav-pickers .pick-postal .textwrapper,
+.nav-pickers .pick-store .textwrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.nav-pickers .pick-postal .textwrapper .text,
+.nav-pickers .pick-store .textwrapper .text {
+  width: auto;
+  font-weight: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.nav-pickers .pick-postal .textwrapper {
+  min-width: 169px;
+}
+.nav-pickers .pick-postal .textwrapper .text {
+  max-width: 140px;
+}
+.nav-pickers .pick-store .textwrapper {
+  min-width: 189px;
+}
+.nav-pickers .pick-store .textwrapper .text {
+  max-width: 160px;
+}
