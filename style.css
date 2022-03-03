@@ -56,3 +56,11 @@
 .nav-pickers .pick-store .textwrapper .text {
   max-width: 160px;
 }
+
+.hnf-svg-icon {
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  vertical-align: middle;
+  fill: currentColor;
+}
