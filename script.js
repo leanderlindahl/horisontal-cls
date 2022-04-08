@@ -8,5 +8,6 @@ const storeEventHandler = (event) => {
   theStorePicker.querySelector('.textwrapper .text').innerHTML = 'The quick brown fox jumped';
 };
 
+
 setTimeout(() => {postalEventHandler()}, 1000);
-setTimeout(() => {storeEventHandler()}, 1000);
+setTimeout(() => {storeEventHandler()}, 2000);

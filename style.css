@@ -1,5 +1,9 @@
+body {
+  width: 1400px;
+  margin: 0 auto;
+}
 .nav-bar {
-  width: 1100px;
+  width: 1400px;
   margin: 0 auto;
   display: flex;
   flex: 0 0 100%;
@@ -13,9 +17,10 @@
   flex-direction: row;
   width: 100%;
   padding-left: 0;
+  max-width: 402px;
 }
 .nav-ul li {
-  padding: 0 0.625rem;
+  padding: 0 0 0 0.625rem;
 }
 .nav-menu {
   justify-content: flex-start;
@@ -23,6 +28,8 @@
 }
 .nav-pickers {
   justify-content: flex-end;
+  width: auto;
+  background-color: orange;
 }
 .nav-pickers .pick-postal .textwrapper,
 .nav-pickers .pick-store .textwrapper {
@@ -44,15 +51,15 @@
 }
 
 
-.nav-pickers .pick-postal .textwrapper {
+/* .nav-pickers .pick-postal .textwrapper {
   min-width: 169px;
-}
+} */
 .nav-pickers .pick-postal .textwrapper .text {
   max-width: 140px;
 }
-.nav-pickers .pick-store .textwrapper {
+/* .nav-pickers .pick-store .textwrapper {
   min-width: 189px;
-}
+} */
 .nav-pickers .pick-store .textwrapper .text {
   max-width: 160px;
 }
@@ -63,4 +70,13 @@
   width: 1.5rem;
   vertical-align: middle;
   fill: currentColor;
+}
+
+div.main {
+  display: flex;
+  justify-content: center;
+}
+.trigger-cls {
+  padding: 10px 20px;
+  margin: 50px;
 }
